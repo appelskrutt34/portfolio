@@ -51,10 +51,10 @@
 
         <h1 class="font-header mb-1">Tech Toolbox</h1>
         <h2>My Most used Tools and Technologies</h2>
-        <div class="lg:flex lg:gap-20 gap-8 grid grid-cols-3 lg:grid-cols-5 pt-16 mb-64">
-            <p class="flex flex-col  gap-2 items-center justify-center"><img src="/logos/svelte.png" alt="svelte logo" class="grayscale h-8 lg:h-16 mr-1">Svelte</p>
-            <p class="flex flex-col  gap-2 items-center justify-center"><img src="/logos/tailwind.png" alt="tailwind logo" class="grayscale h-8 lg:h-16 mr-1">TailwindCSS</p>
-            <p class="flex flex-col  gap-2 items-center justify-center"><img src="/logos/dotnet.png" alt="dotnet logo" class="grayscale h-8 lg:h-16 mr-1">DotNet</p>
+        <div class="lg:flex lg:gap-20 gap-4 md:gap-8 grid grid-cols-3 lg:grid-cols-5 pt-16 mb-64">
+            <p class="flex flex-col gap-2 items-center justify-center"><img src="/logos/svelte.png" alt="svelte logo" class="grayscale h-8 lg:h-16 mr-1">Svelte</p>
+            <p class="flex flex-col gap-2 items-center justify-center"><img src="/logos/tailwind.png" alt="tailwind logo" class="grayscale h-8 lg:h-16 mr-1">TailwindCSS</p>
+            <p class="flex flex-col gap-2 items-center justify-center"><img src="/logos/dotnet.png" alt="dotnet logo" class="grayscale h-8 lg:h-16 mr-1">DotNet</p>
             <p class="flex flex-col gap-2 items-center justify-center"><img src="/logos/devops.png" alt="azure devops logo" class="grayscale h-8 lg:h-16 mr-1">AzureDevOps</p>
             <p class="flex flex-col gap-2 items-center justify-center"><img src="/logos/burp.jpg" alt="burp suit logo" class="grayscale h-8 lg:h-16 mr-1">BurpSuit</p>
             <p class="flex flex-col gap-2 items-center justify-center"><img src="/logos/sqlserver.png" alt="sql server logo" class="grayscale h-8 lg:h-16 mr-1">SqlServer</p>
@@ -104,13 +104,13 @@
         
     
 
-    <div class="container flex flex-col items-center my-44 z-10 text-neutral-900">
+    <div class="container flex flex-col items-center mt-64 mb-44 z-10 text-neutral-900">
         <h1 class="font-header">Hobby Projects</h1>
         <h2>Some Websites and Apps I've Crafted and Contributed To</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 py-20">
             <Project image="/pages/njord.png" title="Njord.rs" description="Made with Svelte" source="https://www.njord.rs"></Project>
-            <Project image="/pages/explorer.png" title="Kryptokrona Explorer" source="https://www.explorer.kryptokrona.org"></Project>
-            <Project image="/pages/kryptokrona.png" title="Kryptokrona Website" source="https://www.kryptokrona.org"></Project>
+            <Project image="/pages/explorer.png" title="Kryptokrona Explorer" description="Contributed as Svelte developer" source="https://www.explorer.kryptokrona.org"></Project>
+            <Project image="/pages/kryptokrona.png" title="Kryptokrona Website" description="Contributed as Svelte developer" source="https://www.kryptokrona.org"></Project>
             <Project image="/pages/ath.png" title="ATH Games" description="Made with Vue" source="https://www.ath.games"></Project>
             <Project image="/pages/kotlinSDK.png" title="Kryptokrona Kotlin SDK" description="Made with Svelte" source="https://sdk.kryptokrona.org/"></Project>
         </div>
