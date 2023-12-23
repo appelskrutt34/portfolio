@@ -63,7 +63,7 @@
     <div class="w-full flex flex-col justify-center items-center relative bg-neutral-50 mt-80 px-4">
         <div class="-mt-[280px] text-right z-10">
             <h1 class="font-header mb-1">Professional History</h1>
-            <div class="rounded-3xl container bg-neutral-950 border border-neutral-50 p-8 md:p-16">
+            <div class="rounded-3xl container bg-neutral-900 border border-neutral-50 p-8 md:p-16">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-20 text-left">
                     <Work title="Fullstack Developer at Forefront"
                     tasks={["Maintenance and development of new features on websites built with asp.net and optimizely"
@@ -104,15 +104,15 @@
         
     
 
-    <div class="container flex flex-col items-center my-44 z-10 text-neutral-950">
+    <div class="container flex flex-col items-center my-44 z-10 text-neutral-900">
         <h1 class="font-header">Hobby Projects</h1>
         <h2>Some Websites and Apps I've Crafted and Contributed To</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 py-20">
-            <Project image="/pages/njord.png" title="Njord.rs" description="Made with Svelte"></Project>
-            <Project image="/pages/explorer.png" title="Kryptokrona Explorer"></Project>
-            <Project image="/pages/kryptokrona.png" title="Kryptokrona Website"></Project>
-            <Project image="/pages/ath.png" title="ATH Games" description="Made with Vue"></Project>
-            <Project image="/pages/kotlinSDK.png" title="Kryptokrona Kotlin SDK" description="Made with Svelte"></Project>
+            <Project image="/pages/njord.png" title="Njord.rs" description="Made with Svelte" source="https://www.njord.rs"></Project>
+            <Project image="/pages/explorer.png" title="Kryptokrona Explorer" source="https://www.explorer.kryptokrona.org"></Project>
+            <Project image="/pages/kryptokrona.png" title="Kryptokrona Website" source="https://www.kryptokrona.org"></Project>
+            <Project image="/pages/ath.png" title="ATH Games" description="Made with Vue" source="https://www.ath.games"></Project>
+            <Project image="/pages/kotlinSDK.png" title="Kryptokrona Kotlin SDK" description="Made with Svelte" source="https://sdk.kryptokrona.org/"></Project>
         </div>
     </div>
     <img src="/wallpapers/geometric.jpg" alt="" class="absolute top-0 left-0 h-full w-full object-cover opacity-20 grayscale">
