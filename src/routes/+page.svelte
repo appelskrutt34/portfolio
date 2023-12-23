@@ -78,10 +78,8 @@
                     date="aug. 2023-now"></Work>
                     <Work title="Fullstack Developer at Sogeti"
                     tasks={["Maintenance and development of new features on websites built with asp.net and optimizely"
-                                , "Setting up build and release pipelines in azure for .net projects"
-                                , "Updating websites to follow wcag guidlines"
-                                , "Building an app in vue.js with strapi"
-                                , "Writing web jobs in azure functions"]} 
+                                , "Setting up build and release pipelines in azure"
+                                , "Updating websites to follow wcag guidlines"]} 
                     stack="# javascript, c-sharp, html, css, asp.net, react, sql server, azure
                     devops, octopus deploy, optimizely"
                     date="march 2022–juli 2023"></Work>
