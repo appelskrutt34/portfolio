@@ -14,8 +14,5 @@
         <li>{task}</li>
         {/each}
     </ul>
-
-        <p class="text-lime-600 text-sm font-secondary">{stack}</p>
-     
- 
+    <p class="text-lime-600 text-sm font-secondary">{stack}</p>
 </div>

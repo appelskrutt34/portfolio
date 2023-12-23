@@ -8,61 +8,58 @@
     import Terminal from "$lib/components/icons/Terminal.svelte"
   import Skill from "$lib/components/Skill.svelte";
   import Work from "$lib/components/Work.svelte";
-
 </script>
-<div class="flex flex-col justify-center items-center text-center">  
+
+<main class="flex flex-col justify-center items-center text-center">  
     <div class="container flex flex-col items-center px-4">
-        <div class="flex my-44">
-                <img src="my.jpg" alt="avatar" class="grayscale rounded-full h-full lg:h-[600px]">
-                <div class="-ml-40 lg:-ml-24 mt-4 font-secondary z-10 text-left">
+        <div class="flex flex-col gap-6 md:gap-0 md:flex-row justify-center items-center h-[100vh]">
+                <img src="my.jpg" alt="little my" class="grayscale rounded-full h-[360px] md:h-[600px] border border-neutral-900">
+                <div class="md:-mt-60 md:-ml-24 p-4 font-secondary z-10 text-left bg-neutral-50 text-neutral-900 border border-neutral-900 rounded-lg">
                     <p class="font-bold">Name: Ebba</p>
                     <p class="font-bold">Role: Programmer</p>
                 </div>
         </div>
-        <h1 class="font-header">Tech Toolbox</h1>
-        <h2>Favorite Tools and Technologies for Success</h2>
-        <div class="lg:flex lg:gap-16 gap-4 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 pt-16">
-            <p class="flex gap-2 items-center"><img src="/logos/svelte.png" alt="svelte logo" class="grayscale h-8 lg:h-16 mr-1">Svelte</p>
-            <p class="flex gap-2 items-center"><img src="/logos/tailwind.png" alt="tailwind logo" class="grayscale h-8 lg:h-16 mr-1">TailwindCSS</p>
-            <p class="flex gap-2 items-center"><img src="/logos/dotnet.png" alt="dotnet logo" class="grayscale h-8 lg:h-16 mr-1">DotNet</p>
-            <p class="flex gap-2 items-center"><img src="/logos/devops.png" alt="azure devops logo" class="grayscale h-8 lg:h-16 mr-1">AzureDevOps</p>
-            <p class="flex gap-2 items-center"><img src="/logos/burp.jpg" alt="burp suit logo" class="grayscale h-8  lg:h-16 mr-1">BurpSuit</p>
-        </div>
-
-
         <div class="w-full my-64 text-left">
             <h1 class="font-header">What can I Do?</h1>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                 <Skill title="UI" description="Craft beautiful, responsive and accessible websites">
-                    <img slot="image" src="/wallpapers/fading3.jpg" alt="" class="absolute top-0 left-0 h-full w-full object-cover opacity-30 grayscale">
+                    <img slot="image" src="/wallpapers/fading3.jpg" alt="pattern background" aria-hidden="true" class="absolute top-0 left-0 h-full w-full object-cover opacity-30 grayscale">
                     <Fire slot="icon"></Fire>
                 </Skill>
                 <Skill title="Security" description="Build robust, extensible software systems with a security mindset">
-                    <img slot="image" src="/wallpapers/flat.jpg" alt="" class="absolute top-0 left-0 h-full w-full object-cover opacity-20 grayscale">
+                    <img slot="image" src="/wallpapers/flat.jpg" alt="pattern background" aria-hidden="true" class="absolute top-0 left-0 h-full w-full object-cover opacity-20 grayscale">
                     <Shield slot="icon"></Shield>
                 </Skill>
                 <Skill title="Code" description="Write code with well-thought-out design principles and coding standards">
-                    <img slot="image" src="/wallpapers/fading4.jpg" alt="" class="absolute top-0 left-0 w-full object-cover opacity-20 grayscale">
+                    <img slot="image" src="/wallpapers/fading4.jpg" alt="pattern background" aria-hidden="true" class="absolute top-0 left-0 w-full object-cover opacity-20 grayscale">
                     <Code slot="icon"></Code>
                 </Skill>
                 <Skill title="CI/CD" description="Set up automated build and release processes">
-                    <img slot="image" src="/wallpapers/fading6.jpg" alt="" class="rotate-180 absolute top-0 left-0 h-full w-full object-cover opacity-40 grayscale">
+                    <img slot="image" src="/wallpapers/fading6.jpg" alt="pattern background" aria-hidden="true" class="rotate-180 absolute top-0 left-0 h-full w-full object-cover opacity-40 grayscale">
                     <Cube slot="icon"></Cube>
                 </Skill>
                 <Skill title="Pen Testing" description="Test sites for vulnerabillities, exploits and bugs">
-                    <img slot="image" src="/wallpapers/fading4.jpg" alt="" class="rotate-180 absolute top-0 left-0 w-full object-cover opacity-20 grayscale">
+                    <img slot="image" src="/wallpapers/fading4.jpg" alt="pattern background" aria-hidden="true" class="rotate-180 absolute top-0 left-0 w-full object-cover opacity-20 grayscale">
                     <Terminal slot="icon"></Terminal>
                 </Skill>
                 <Skill title="Blockchain" description="Build smart contracts, Connect websites and apps to blockchain">
-                    <img slot="image" src="/wallpapers/fading6.jpg" alt="" class="absolute top-0 left-0 h-full w-full object-cover opacity-40 grayscale">
+                    <img slot="image" src="/wallpapers/fading6.jpg" alt="pattern background" aria-hidden="true" class="absolute top-0 left-0 h-full w-full object-cover opacity-40 grayscale">
                     <Eth slot="icon"></Eth>
                 </Skill>
-               
             </div>
         </div>
+
+        <h1 class="font-header mb-1">Tech Toolbox</h1>
+        <h2>My Most used Tools and Technologies</h2>
+        <div class="lg:flex lg:gap-20 gap-8 grid grid-cols-3 lg:grid-cols-5 pt-16 mb-64">
+            <p class="flex flex-col  gap-2 items-center justify-center"><img src="/logos/svelte.png" alt="svelte logo" class="grayscale h-8 lg:h-16 mr-1">Svelte</p>
+            <p class="flex flex-col  gap-2 items-center justify-center"><img src="/logos/tailwind.png" alt="tailwind logo" class="grayscale h-8 lg:h-16 mr-1">TailwindCSS</p>
+            <p class="flex flex-col  gap-2 items-center justify-center"><img src="/logos/dotnet.png" alt="dotnet logo" class="grayscale h-8 lg:h-16 mr-1">DotNet</p>
+            <p class="flex flex-col gap-2 items-center justify-center"><img src="/logos/devops.png" alt="azure devops logo" class="grayscale h-8 lg:h-16 mr-1">AzureDevOps</p>
+            <p class="flex flex-col gap-2 items-center justify-center"><img src="/logos/burp.jpg" alt="burp suit logo" class="grayscale h-8 lg:h-16 mr-1">BurpSuit</p>
+            <p class="flex flex-col gap-2 items-center justify-center"><img src="/logos/sqlserver.png" alt="sql server logo" class="grayscale h-8 lg:h-16 mr-1">SqlServer</p>
+        </div>
     </div>
- 
-   
     <div class="w-full flex flex-col justify-center items-center relative bg-neutral-50 mt-80 px-4">
         <div class="-mt-[280px] text-right z-10">
             <h1 class="font-header mb-1">Professional History</h1>
@@ -120,5 +117,5 @@
     </div>
     <img src="/wallpapers/geometric.jpg" alt="" class="absolute top-0 left-0 h-full w-full object-cover opacity-20 grayscale">
 </div>
-</div>
+</main>
 

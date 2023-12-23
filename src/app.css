@@ -2,10 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
     h1 {
-      font-weight: 700;
       font-size: 6em;
       line-height: 80px;
     }
