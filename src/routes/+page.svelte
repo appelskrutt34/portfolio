@@ -105,7 +105,7 @@
    </section>
         
 <section class="py-44 w-full flex justify-center relative">
-    <div class="container px-4">
+    <div class="container px-4 z-10">
         <h1 class="font-header">Hobby Projects</h1>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 py-20 text-left">
             <Project image="/pages/explorer.png" title="Kryptokrona Explorer" description="Contributed as Svelte developer" source="https://www.explorer.kryptokrona.org"></Project>
@@ -115,7 +115,7 @@
             <Project image="/pages/ath.png" title="ATH Games" description="Made with Vue" source="https://www.ath.games"></Project>
         </div>
     </div>
-    <img src="/wallpapers/geometry.png" alt="" class="absolute left-0 top-0 w-full object-cover opacity-30 grayscale rotate-180">
+    <img src="/wallpapers/geometry.png" alt="" class="absolute left-0 top-0 w-full object-cover opacity-20 grayscale rotate-180">
 </section>
 </main>
 
