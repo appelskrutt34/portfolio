@@ -9,7 +9,7 @@
     <div class="absolute top-0 left-0 w-full h-full z-10 p-6">
         <div class="flex gap-4 items-center ">
             <slot name="icon"></slot>
-            <h2 class="font-secondary">{title}</h2>
+            <h2>{title}</h2>
         </div>
         <p class="mt-8">{description}</p>
     </div>

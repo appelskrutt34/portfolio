@@ -5,10 +5,13 @@
     export let source = "";
 </script>
 
-<div>
-    <p class="text-lg mb-1 font-bold">{title}</p>
-    <p class="mb-4">{description}</p>
+<div class="flex flex-col  text-left">
     <a href={source}>
-        <img src={image} alt="" class="h-[400px] w-[480px] object-cover border border-neutral-900 rounded-lg">
+        <img src={image} alt="" class="w-full h-auto object-cover border border-neutral-50 rounded-lg">
     </a>
+
+    <div class="bg-neutral-50 p-4 rounded-lg mt-4 text-neutral-900">
+        <p class="font-bold text-left">{title}</p>
+        <p class="font-secondary text-left">{description}</p>
+    </div>
 </div>
