@@ -6,7 +6,7 @@
 </script>
 
 
-<div class="text-left bg-neutral-900 rounded-2xl p-12">
+<div class="text-left bg-neutral-900 rounded-3xl p-12">
     <h2 class="font-bold">{title}</h2>
     <p class="opacity-50 text-sm">{date}</p>
     <ul class="mt-4 mb-1">
