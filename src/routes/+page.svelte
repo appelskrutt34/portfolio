@@ -98,7 +98,7 @@
                 stack="# wpf, azure devops, html, css, javascript, c-sharp"
                 date="jan. 2020–june 2020"></Work>
             </div>
-        
+            <img src="/wallpapers/geometry.png" alt="" class="absolute left-0 bottom-0 w-full object-cover opacity-30 grayscale">
         </div>
    </section>
         
@@ -114,6 +114,7 @@
             <Project image="/pages/ath.png" title="ATH Games" description="Made with Vue" source="https://www.ath.games"></Project>
         </div>
     </div>
+    <img src="/wallpapers/geometry.png" alt="" class="absolute left-0 top-0 w-full object-cover opacity-20 grayscale rotate-180">
 </section>
 </main>
 
