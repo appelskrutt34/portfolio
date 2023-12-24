@@ -61,12 +61,12 @@
                 <p class="flex flex-col gap-2 items-center justify-center"><img src="/logos/sqlserver.png" alt="sql server logo" class="grayscale h-8 lg:h-16 mr-1">SqlServer</p>
             </div>
         </section>
-        
+</div>
 
-       <section class="my-44">
-        <h1 class="font-header mb-1 w-full text-right">Professional History</h1>
-        <div class="rounded-3xl container border p-8 md:p-16">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-20 text-left">
+<section class="mt-44 w-full flex flex-col items-center">
+        <h1 class="font-header mb-1 w-full text-right container px-4">Professional History</h1>
+        <div class="w-full flex justify-center bg-neutral-50 py-20 relative">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left container z-10 px-4">
                 <Work title="Fullstack Developer at Forefront"
                 tasks={["Maintenance and development of new features on websites built with asp.net and optimizely"
                         ,"Migrating data and sites from old servers to newer ones"
@@ -98,20 +98,24 @@
                 stack="# wpf, azure devops, html, css, javascript, c-sharp"
                 date="jan. 2020–june 2020"></Work>
             </div>
+            <img src="/wallpapers/geometry.png" alt="" class="absolute left-0 bottom-0 w-full object-cover opacity-30 grayscale">
         </div>
-       </section>
-            
-<section class="my-44">
-    <h1 class="font-header">Hobby Projects</h1>
+        
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 py-20 text-left">
-        <Project image="/pages/explorer.png" title="Kryptokrona Explorer" description="Contributed as Svelte developer" source="https://www.explorer.kryptokrona.org"></Project>
-        <Project image="/pages/kryptokrona.png" title="Kryptokrona Website" description="Contributed as Svelte developer" source="https://www.kryptokrona.org"></Project>
-        <Project image="/pages/kotlin.png" title="Kryptokrona Kotlin SDK" description="Made with Svelte" source="https://sdk.kryptokrona.org/"></Project>
-        <Project image="/pages/njord.png" title="Njord.rs" description="Made with Svelte" source="https://www.njord.rs"></Project>
-        <Project image="/pages/ath.png" title="ATH Games" description="Made with Vue" source="https://www.ath.games"></Project>
+   </section>
+        
+<section class="py-44 w-full flex justify-center relative">
+    <div class="container px-4">
+        <h1 class="font-header">Hobby Projects</h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 py-20 text-left">
+            <Project image="/pages/explorer.png" title="Kryptokrona Explorer" description="Contributed as Svelte developer" source="https://www.explorer.kryptokrona.org"></Project>
+            <Project image="/pages/kryptokrona.png" title="Kryptokrona Website" description="Contributed as Svelte developer" source="https://www.kryptokrona.org"></Project>
+            <Project image="/pages/kotlin.png" title="Kryptokrona Kotlin SDK" description="Made with Svelte" source="https://sdk.kryptokrona.org/"></Project>
+            <Project image="/pages/njord.png" title="Njord.rs" description="Made with Svelte" source="https://www.njord.rs"></Project>
+            <Project image="/pages/ath.png" title="ATH Games" description="Made with Vue" source="https://www.ath.games"></Project>
+        </div>
     </div>
+    <img src="/wallpapers/geometry.png" alt="" class="absolute left-0 top-0 w-full object-cover opacity-30 grayscale rotate-180">
 </section>
-</div>
 </main>
 
