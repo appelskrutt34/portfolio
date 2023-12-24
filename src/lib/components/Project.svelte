@@ -6,7 +6,7 @@
 </script>
 
 <div class="flex flex-col  text-left">
-    <a href={source}>
+    <a href={source} aria-label={title}>
         <img src={image} alt="" class="w-full h-auto object-cover border border-neutral-50 rounded-lg">
     </a>
 
