@@ -107,11 +107,11 @@
         <h1 class="font-header">Hobby Projects</h1>
         <h2>Some Websites and Apps I've Crafted and Contributed To</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 py-20 text-left">
-            <Project image="/pages/explorer.png" title="Kryptokrona Explorer" description="Contributed as Svelte developer" source="https://www.explorer.kryptokrona.org"></Project>
-            <Project image="/pages/kryptokrona.png" title="Kryptokrona Website" description="Contributed as Svelte developer" source="https://www.kryptokrona.org"></Project>
-            <Project image="/pages/kotlin.png" title="Kryptokrona Kotlin SDK" description="Made with Svelte" source="https://sdk.kryptokrona.org/"></Project>
-            <Project image="/pages/njord.png" title="Njord.rs" description="Made with Svelte" source="https://www.njord.rs"></Project>
-            <Project image="/pages/ath.png" title="ATH Games" description="Made with Vue" source="https://www.ath.games"></Project>
+            <Project image="/pages/explorer.webp" title="Kryptokrona Explorer" description="Contributed as Svelte developer" source="https://www.explorer.kryptokrona.org"></Project>
+            <Project image="/pages/kryptokrona.webp" title="Kryptokrona Website" description="Contributed as Svelte developer" source="https://www.kryptokrona.org"></Project>
+            <Project image="/pages/kotlin.webp" title="Kryptokrona Kotlin SDK" description="Made with Svelte" source="https://sdk.kryptokrona.org/"></Project>
+            <Project image="/pages/njord.webp" title="Njord.rs" description="Made with Svelte" source="https://www.njord.rs"></Project>
+            <Project image="/pages/ath.webp" title="ATH Games" description="Made with Vue" source="https://www.ath.games"></Project>
         </div>
     </div>
     <img src="/wallpapers/geometry.png" alt="" class="absolute left-0 top-0 w-full object-cover opacity-20 grayscale rotate-180">
