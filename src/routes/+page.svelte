@@ -8,6 +8,8 @@
     import Terminal from "$lib/components/icons/Terminal.svelte"
   import Skill from "$lib/components/Skill.svelte";
   import Work from "$lib/components/Work.svelte";
+
+
 </script>
 
 <main class="flex flex-col justify-center items-center text-center">  
@@ -19,7 +21,7 @@
                     <p class="font-bold">Role: Programmer</p>
                 </div>
         </section>
-        <section class="w-full my-44 text-left">
+        <section class="w-full my-44 text-left" id="skills">
             <h1 class="font-header">What can I Do?</h1>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                 <Skill title="UI" description="Craft beautiful, responsive and accessible websites">
@@ -49,7 +51,7 @@
             </div>
         </section>
 
-        <section class="my-44">
+        <section class="my-44" id="toolbox">
             <h1 class="font-header mb-1">Tech Toolbox</h1>
             <h2>My Most used Tools and Technologies</h2>
             <div class="lg:flex lg:gap-20 gap-4 md:gap-8 grid grid-cols-3 lg:grid-cols-5 pt-16">
@@ -63,7 +65,7 @@
         </section>
 </div>
 
-<section class="mt-44 w-full flex flex-col items-center">
+<section class="mt-44 w-full flex flex-col items-center" id="history">
         <h1 class="font-header mb-1 w-full text-right container px-4">Professional History</h1>
         <div class="w-full flex justify-center bg-neutral-50 py-20 relative">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left container z-10 px-4">
