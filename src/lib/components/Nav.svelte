@@ -3,7 +3,8 @@
 <script>
   import { fade } from "svelte/transition";
   import Linkedin from "$lib/components/icons/Linkedin.svelte"
-  import Twitter from "$lib/components/icons/Twitter.svelte"
+  import Github from "$lib/components/icons/Github.svelte"
+  import Twitch from "$lib/components/icons/Twitch.svelte"
   var y;
   function scrollInto(id) {
     let element = document.getElementById(id);
@@ -21,8 +22,9 @@
                 <button on:click={() => {scrollInto("history")}}>history</button>
             </div>
             <div class="flex gap-4">
-                <a href="#"><Linkedin color="#fafafa"></Linkedin></a>
-                <a href="#"><Twitter color="#fafafa"></Twitter></a>
+                <a href="https://www.linkedin.com/in/ebba-svensson-6a295b187/"><Linkedin color="#fafafa"></Linkedin></a>
+                <a href="https://github.com/appelskrutt34"><Github color="#fafafa"></Github></a>
+                <a href="https://www.twitch.tv/hutnelf"><Twitch color="#fafafa"></Twitch></a>
             </div>
         </div>
         </div>
@@ -35,8 +37,9 @@
                     <button on:click={() => {scrollInto("history")}}>history</button>
                 </div>
                 <div class="flex gap-4">
-                    <a href="#"><Linkedin color="#171717"></Linkedin></a>
-                    <a href="#"><Twitter color="#171717"></Twitter></a>
+                    <a href="https://www.linkedin.com/in/ebba-svensson-6a295b187/"><Linkedin color="#171717"></Linkedin></a>
+                    <a href="https://github.com/appelskrutt34"><Github color="#171717"></Github></a>
+                    <a href="https://www.twitch.tv/hutnelf"><Twitch color="#171717"></Twitch></a>
                 </div>
             </div>
         </div>
