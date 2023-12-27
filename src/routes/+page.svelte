@@ -8,8 +8,6 @@
     import Terminal from "$lib/components/icons/Terminal.svelte"
   import Skill from "$lib/components/Skill.svelte";
   import Work from "$lib/components/Work.svelte";
-
-
 </script>
 
 <main class="flex flex-col justify-center items-center text-center">  
@@ -104,7 +102,7 @@
         </div>
    </section>
         
-<section class="py-44 w-full flex justify-center relative">
+<section class="py-44 w-full flex justify-center relative" id="projects">
     <div class="container px-4 z-10">
         <h1 class="font-header">Hobby Projects</h1>
         <h2>Some Websites and Apps I've Crafted and Contributed To</h2>

@@ -20,6 +20,7 @@
                 <button on:click={() => {scrollInto("skills")}}>skills</button>
                 <button on:click={() => {scrollInto("toolbox")}}>toolbox</button>
                 <button on:click={() => {scrollInto("history")}}>history</button>
+                <button on:click={() => {scrollInto("projects")}}>hobby projects</button>
             </div>
             <div class="flex gap-4">
                 <a href="https://www.linkedin.com/in/ebba-svensson-6a295b187/"><Linkedin color="#fafafa"></Linkedin></a>
@@ -35,6 +36,7 @@
                     <button on:click={() => {scrollInto("skills")}}>skills</button>
                     <button on:click={() => {scrollInto("toolbox")}}>toolbox</button>
                     <button on:click={() => {scrollInto("history")}}>history</button>
+                    <button on:click={() => {scrollInto("projects")}}>hobby projects</button>
                 </div>
                 <div class="flex gap-4">
                     <a href="https://www.linkedin.com/in/ebba-svensson-6a295b187/" aria-label="linkedin"><Linkedin color="#171717"></Linkedin></a>
