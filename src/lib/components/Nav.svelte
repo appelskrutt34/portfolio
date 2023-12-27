@@ -37,9 +37,9 @@
                     <button on:click={() => {scrollInto("history")}}>history</button>
                 </div>
                 <div class="flex gap-4">
-                    <a href="https://www.linkedin.com/in/ebba-svensson-6a295b187/"><Linkedin color="#171717"></Linkedin></a>
-                    <a href="https://github.com/appelskrutt34"><Github color="#171717"></Github></a>
-                    <a href="https://www.twitch.tv/hutnelf"><Twitch color="#171717"></Twitch></a>
+                    <a href="https://www.linkedin.com/in/ebba-svensson-6a295b187/" aria-label="linkedin"><Linkedin color="#171717"></Linkedin></a>
+                    <a href="https://github.com/appelskrutt34" aria-label="github"><Github color="#171717"></Github></a>
+                    <a href="https://www.twitch.tv/hutnelf" aria-label="twitch"><Twitch color="#171717"></Twitch></a>
                 </div>
             </div>
         </div>
