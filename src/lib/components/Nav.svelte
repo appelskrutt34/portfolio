@@ -5,7 +5,7 @@
   import Linkedin from "$lib/components/icons/Linkedin.svelte"
   import Github from "$lib/components/icons/Github.svelte"
   import Twitch from "$lib/components/icons/Twitch.svelte"
-  var y;
+  var y = 0;
   function scrollInto(id) {
     let element = document.getElementById(id);
     window.scrollTo({ top: element.offsetTop - 70, behavior: 'smooth'});
