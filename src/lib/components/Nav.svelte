@@ -8,7 +8,7 @@
   var y = 0;
   function scrollInto(id) {
     let element = document.getElementById(id);
-    window.scrollTo({ top: element.offsetTop - 70, behavior: 'smooth'});
+    window.scrollTo({ top: element.offsetTop - 100, behavior: 'smooth'});
   }
 </script>
 
