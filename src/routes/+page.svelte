@@ -6,6 +6,7 @@
     import Eth from "$lib/components/icons/Eth.svelte";
     import Cube from "$lib/components/icons/Cube.svelte";
     import Terminal from "$lib/components/icons/Terminal.svelte"
+    import Github from "$lib/components/icons/Github.svelte"
   import Skill from "$lib/components/Skill.svelte";
   import Work from "$lib/components/Work.svelte";
 </script>
@@ -112,6 +113,7 @@
             <Project image="/pages/kotlin.webp" title="Kryptokrona Kotlin SDK" description="Made with Svelte" source="https://sdk.kryptokrona.org/"></Project>
             <Project image="/pages/njord.webp" title="Njord.rs" description="Made with Svelte" source="https://www.njord.rs"></Project>
             <Project image="/pages/ath.webp" title="ATH Games" description="Made with Vue" source="https://www.ath.games"></Project>
+            <Project title="Yggdrasil wallet" description="Contributed as Svelte developer" source="https://github.com/kryptokrona/yggdrasil-wallet"><Github size="50%"></Github></Project>
         </div>
     </div>
     <img src="/wallpapers/geometry.png" alt="" class="absolute left-0 top-0 w-full object-cover opacity-20 grayscale rotate-180">
