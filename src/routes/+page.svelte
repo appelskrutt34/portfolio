@@ -110,7 +110,6 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 py-20 text-left">
             <Project image="/pages/explorer.webp" title="Kryptokrona Explorer" description="Contributed as Svelte developer" source="https://www.explorer.kryptokrona.org"></Project>
             <Project image="/pages/kryptokrona.webp" title="Kryptokrona Website" description="Contributed as Svelte developer" source="https://www.kryptokrona.org"></Project>
-            <Project image="/pages/kotlin.webp" title="Kryptokrona Kotlin SDK" description="Made with Svelte" source="https://sdk.kryptokrona.org/"></Project>
             <Project image="/pages/njord.webp" title="Njord.rs" description="Made with Svelte" source="https://www.njord.rs"></Project>
             <Project image="/pages/ath.webp" title="ATH Games" description="Made with Vue" source="https://www.ath.games"></Project>
             <Project title="Yggdrasil wallet" description="Contributed as Svelte developer" source="https://github.com/kryptokrona/yggdrasil-wallet"><Github size="50%"></Github></Project>
