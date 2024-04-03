@@ -14,7 +14,10 @@
 <main class="flex flex-col justify-center items-center text-center">  
     <div class="container flex flex-col items-center px-4 relative">
         <section class="flex flex-col gap-6 md:gap-0 md:flex-row justify-center items-center h-[100vh]">
-                <img src="my.jpg" alt="little my" class="grayscale rounded-full h-[360px] md:h-[600px] border border-neutral-900">
+            <div>
+                <img src="my.jpg" alt="little my" class="grayscale rounded-full h-full md:h-[600px] border border-neutral-900 object-contain">
+            </div>
+                
                 <div class="md:-mt-60 md:-ml-24 p-4 font-secondary z-10 text-left bg-neutral-50 text-neutral-900 border border-neutral-900 rounded-lg">
                     <p class="font-bold">Name: Ebba</p>
                     <p class="font-bold">Role: Programmer</p>
@@ -109,9 +112,10 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 py-20 text-left">
             <Project image="/pages/explorer.webp" title="Kryptokrona Explorer" description="Contributed as Svelte developer" source="https://www.explorer.kryptokrona.org"></Project>
             <Project image="/pages/kryptokrona.webp" title="Kryptokrona Website" description="Contributed as Svelte developer" source="https://www.kryptokrona.org"></Project>
-            <Project image="/pages/njord.webp" title="Njord.rs" description="Made with Svelte" source="https://www.njord.rs"></Project>
+            <Project title="Hugin desktop" description="Contributed as Svelte developer" source="https://github.com/kryptokrona/hugin-desktop"><Github size="50%"></Github></Project>
             <Project image="/pages/ath.webp" title="ATH Games" description="Made with Vue" source="https://www.ath.games"></Project>
             <Project title="Yggdrasil wallet" description="Contributed as Svelte developer" source="https://github.com/kryptokrona/yggdrasil-wallet"><Github size="50%"></Github></Project>
+            <Project image="/pages/njord.webp" title="Njord.rs" description="Made with Svelte" source="https://www.njord.rs"></Project>
         </div>
     </div>
     <img src="/wallpapers/geometry.png" alt="" class="absolute left-0 top-0 w-full object-cover opacity-20 grayscale rotate-180">
