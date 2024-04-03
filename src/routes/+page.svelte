@@ -69,19 +69,17 @@
         <div class="w-full flex justify-center bg-neutral-50 py-20 relative">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left container z-10 px-4">
                 <Work title="Fullstack Developer at Forefront"
-                tasks={["Maintenance and development of new features on websites built with asp.net and optimizely"
-                        ,"Migrating data and sites from old servers to newer ones"
-                            ,"Developing websites in blazor"
-                            ,"Developing apps in flutter"
-                            ,"Writing apis in .net"
-                            , "Setting up build and release pipelines in azure"
-                            ,"Setting up nuget publish flows in azure"
+                tasks={["Maintenance and development of websites built with different frameworks such as optimizely, asp.net, blazor, svelte"
+                        ,"Setting up hosting solutions onprem and cloud"
+                            ,"Writing apis"
+                            , "Setting up build and release pipelines"
+                            ,"Integrating nets payment solution"
                             , "Updating websites to follow wcag guidlines"]}
-                stack="# asp.net, azure devops, sql server, blazor, flutter, c-sharp, java, javascript, sql, html, css, teamcity, octopus deploy, optimizely"
+                stack="# asp.net, azure devops, github actions, sql server, blazor, svelte, flutter, c-sharp, javascript, sql, html, css, teamcity, octopus deploy, optimizely"
                 date="aug. 2023-now"></Work>
                 <Work title="Fullstack Developer at Sogeti"
                 tasks={["Maintenance and development of new features on websites built with asp.net and optimizely"
-                            , "Setting up build and release pipelines in azure"
+                            , "Setting up build and release pipelines"
                             , "Updating websites to follow wcag guidlines"]} 
                 stack="# javascript, c-sharp, html, css, asp.net, react, sql server, azure
                 devops, octopus deploy, optimizely"
