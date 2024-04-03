@@ -74,6 +74,7 @@
                             ,"Writing apis"
                             , "Setting up build and release pipelines"
                             ,"Integrating nets payment solution"
+                            ,"Doing code reviews and interviewing new candidates"
                             , "Updating websites to follow wcag guidlines"]}
                 stack="# asp.net, azure devops, github actions, sql server, blazor, svelte, flutter, c-sharp, javascript, sql, html, css, teamcity, octopus deploy, optimizely"
                 date="aug. 2023-now"></Work>
