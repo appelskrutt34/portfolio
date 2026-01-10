@@ -1,4 +1,5 @@
 ## Just a showcase of frontend skills
 
-https://appelskrutt34.github.io/svelte-template/
+https://appelskrutt34.github.io/portfolio
+
 
