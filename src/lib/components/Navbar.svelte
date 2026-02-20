@@ -11,11 +11,8 @@
   let y = $state(0);
   let openMenu = $state(false);
 
-  const base =
-    "w-full justify-center md:flex hidden transition-colors duration-300";
-
   let navClass = $state(
-    "bg-zinc-900 text-zinc-100 dark:bg-zinc-100 dark:text-zinc-900"
+    "bg-zinc-900 text-zinc-100 dark:bg-zinc-100 dark:text-zinc-900",
   );
 
   let linkClass = $state("bg-zinc-900 dark:bg-zinc-100");
@@ -57,13 +54,16 @@
 <a href="#main" class="sr-only focus:not-sr-only p-2"> Skip to main content </a>
 <header class="fixed w-full top-0 z-20">
   <!-- Monitor -->
-  <div in:fade class="{base} {navClass}">
+  <div
+    in:fade
+    class="w-full justify-center md:flex hidden transition-colors duration-300 {navClass}"
+  >
     <nav
       class="max-w-5xl w-full gap-6 md:gap-0 flex flex-col md:flex-row justify-between p-6"
     >
       <div class="flex gap-8">
         <a
-          class="hover:scale-125 transition-transform duration-200"
+          class="hover:scale-110 transition-transform duration-200"
           href="https://www.linkedin.com/in/ebba-svensson-6a295b187/"
           aria-label="Linkedin"><Linkedin customClass={iconClass}></Linkedin></a
         >
@@ -101,9 +101,9 @@
 
       <button onclick={toggleDarkMode} aria-pressed={$isDarkMode}
         >{#if $isDarkMode}<ToggleOn
-            customClass="{iconClass} hover:scale-125 transition-transform duration-200"
+            customClass="{iconClass} hover:scale-110 transition-transform duration-200"
           ></ToggleOn>{:else}<ToggleOff
-            customClass="{iconClass} hover:scale-125 transition-transform duration-200"
+            customClass="{iconClass} hover:scale-110 transition-transform duration-200"
           ></ToggleOff>{/if} Dark Mode
       </button>
     </nav>
